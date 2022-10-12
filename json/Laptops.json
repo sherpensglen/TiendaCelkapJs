@@ -1,0 +1,62 @@
+[
+{
+"id":7,
+"img":"img/laptop6.jpg",
+"alt":"Dell Inspiration 7000",
+"caption":"Dell Inspiration 7000",
+"price":14799,
+"procesador":"AMD",
+"marca":"Dell",
+"ram":16
+},
+{
+"id":8,
+"img":"img/laptop2.jpg",
+"alt":"Apple MacBook Pro 16",
+"caption":"Apple MacBook Pro 16",
+"price":47999,
+"procesador":"Intel",
+"marca":"Apple",
+"ram":32
+},
+{
+"id":9,
+"img":"img/laptop3.jpg",
+"alt":"Lenovo Idealpad 3",
+"caption":"Lenovo Idealpad 3",
+"price":11999,
+"procesador":"AMD",
+"marca":"Lenovo",
+"ram":16
+},
+{
+"id":10,
+"img":"img/laptop4.jpg",
+"alt":"Hp laptop 14",
+"caption":"Hp laptop 14",
+"price":6999,
+"procesador":"Intel",
+"marca":"Hp",
+"ram":4
+},
+{
+"id":11,
+"img":"img/laptop5.jpg",
+"alt":"Gateway GWTN",
+"caption":"Gateway GWTN",
+"price":11990,
+"procesador":"AMD",
+"marca":"Gateway",
+"ram":8
+},
+{
+"id":12,
+"img":"img/laptop1.jpg",
+"alt":"ACER AN515-55-55LW",
+"caption":"ACER AN515-55-55LW",
+"price":21999,
+"procesador":"AMD",
+"marca":"Acer",
+"ram":8
+}
+]

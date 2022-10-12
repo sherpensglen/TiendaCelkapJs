@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tienda CelKap Contacto para cualquier duda o problema</title>
+	<meta name="description" content="contacto con celkap.com para culaquier duda o problema">
+	<meta name="keywords" content="celulares,laptops,gamer,laptops gamer,
+	electronicos,tienda online,gadgets,envio mexico,ofertas,celkap,xiomi,lg,samsung,poco,apple,drones,camaras web,
+	controles,xbox,playstation">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!-- Inicia el header -->
+<header>
+   <div class="d-block text-center encabezadoContacto">
+   	 <p> <marquee direction="right">Si tienes algun problema comunicate al 771556434</marquee> </p>
+  </div> 
+   <div class="container-fluid ">
+   	 <div class="row d-flex align-items-center justify-content-center">
+   	 	<div class="col-lg-8 pt-3 pb-3">
+   	 		 <form class="d-flex">
+				 <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+				 <button class="btn btn-outline-dark" type="submit">Buscar</button>
+			 </form>
+   	 	</div>
+   	    <div class="col-lg-4 pt-1 pb-2 regCarro">
+   	  	   <img src="img/registro.png" alt="Acceder o registrarse" class="pe-0 py-2 ">
+   	  	    <div class="dropend">
+				  <a id = "UserMenu" class="dropdown-toggle" data-bs-toggle="dropdown">Acceder o registrarse</a>
+				  <ul class="dropdown-menu p-0 m-0">
+				  	 <li><a id="logout"class="dropdown-item p-0 m-0 visually-hidden" onclick="logout()">Logout
+				  	 </a></li>
+				    <li><a id="acceder"class="dropdown-item p-0 m-0" href="usuario/login.html">Acceder</a></li>
+				    <li><a id="registrarse" class="dropdown-item p-0 m-0" href="usuario/registro.html" >Registrarse</a></li>
+				  </ul>
+				</div>
+   	  	    <a type="button" class="position-relative pb-2" href="usuario/carrito.html">Mi carrito
+			 <span id="pillCounter" class="position-absolute top-10 start-100 translate-middle badge rounded-pill bg-danger"></span>
+			 <img src="img/carrito.png" alt="Mi carrito" class="py-0">
+		    </a>
+         </div>
+      </div>
+    </div>
+</header>
+   <!-- Termina el header -->
+   <!-- Inicia el nav-->
+           <nav class="navbar navbar-expand-lg navbar-dark sticky-top p-0 m-0" id="botonera">
+				  <div class="container-fluid d-flex align-items-center">
+				    <a class="navbar-brand logo  p-0 m-0" href="index.html">
+				      <img class="rounded" src="img/logo2.svg" alt="Logo de celkap">
+				    </a>
+				    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
+				    <div class="collapse navbar-collapse pb-0" id="navbarSupportedContent">
+				      <ul class="navbar-nav ms-auto mb-2  mb-lg-0">
+				        <li class="nav-item  ">
+				           <a class="nav-link active p-3 " aria-current="page" href="celulares.html">Celulares</a>
+				        </li>
+				        <li class="nav-item">
+				           <a class="nav-link active p-3" aria-current="page" href="laptops.html">Laptops</a>
+				        </li>
+				        <li class="nav-item">
+				           <a class="nav-link active p-3" aria-current="page" href="gadgets.html">Gadgets</a>
+				        </li>
+				        <li class="nav-item">
+				           <a class="nav-link active p-3" aria-current="page" href="contacto.html">Contacto</a>
+				        </li>
+				      </ul>
+				    </div>
+				  </div>
+				</nav>
+	<!-- Termina el nav-->
+   <!-- Inicia el main -->
+   <main class="fondoContacto">  
+        <div class="container-fluid d-flex align-items-center justify-content-center py-5">
+           <div class="row rounded p-3 m-2" id="formContainer">
+        	 <h1 class="fw-bold ">Contacto</h1>
+			 <form id="contact" method="post" action="index.html"  onsubmit="event.preventDefault(); success();" >
+			 	<div class="form-group py-2 px-2">
+			        <label for="fname">Nombre</label>			      
+			        <input type="text" id="fname" name="firstname" placeholder="Tu nombre.." class="form-control">
+			    </div>
+			    <div class="form-group  py-2 px-2">
+			        <label for="lname">Apellidos</label>
+			        <input type="text" id="lname" name="lastname" placeholder="Tus apellidos.." class="form-control">
+			    </div>
+			    <div class="form-group  py-2 px-2">
+			        <label for="Mail">Correo</label>
+			        <input type="text" name="username" placeholder="Tu Correo.." class="form-control">
+			    </div>
+			    <div class="form-group  py-2 px-2">
+			        <label for="PhoneNumber">Numero de telefono</label>  
+			        <input type="text" id="phonenumber" name="phonenumber" placeholder="Tu numero de telefono.." class="form-control">
+			    </div>
+			    <div class="form-group">
+			        <label for="subject">Asunto</label>		      
+			        <textarea id="subject" name="subject" placeholder="Asunto....." style=" " class="form-control"></textarea>
+			    </div>
+			        <div class="d-flex align-items-center justify-content-center py-3">
+				    <button class="btn btn-dark btn-lg botonForm" type="submit" value="Enviar" 
+				     onclick="Contact(event)">enviar</button>
+			        </div>      
+			  </form>
+		  </div>
+	    </div>
+   </main> 
+   <!-- Termina el main -->
+<!-- Inicia el footer -->
+   <footer >
+    <div class="container-fluid pb-2">
+        <div class="row d-flex align-items-center justify-content-space-evenly ">
+       	    <div class="col-md-5 d-flex flex-wrap align-items-center justify-content-center py-1 px-4"> 
+       	    	   <a href="index.html" class="logo"> <img src="img/logo.svg" alt="logo de Celkap"></a>
+		       	   <p class="text-center pt-2">Más productos,secciones exclusivas,las mejores marcas, estratégicamente ubicados en el centro del país, desplazamos con gran velocidad los productos hasta la comodidad de tu hogar.</p>
+		       	  	<ul>
+						<li>Teléfono atención: 771 475 07 00 </li>
+						<li>Horario: de Lunes a Viernes de 9:00 a  6pm Sábados de 10:00 a 2:00 pm</li>
+						<li>Email: info@CelKap.mx</li>
+						<li>Dirección: trueno Col. San Cayetano, Pachuca, Hgo. México</li>
+					</ul>      			
+		      </div>
+            <div class="redesExtras col-md-7">
+       	        <div class="d-flex flex-wrap align-items-center justify-content-space-around px-1 py-4 redes ">
+			       	 <h5 class="col-lg-6 text-center" >Siguenos en nuestras redes</h5>
+			       	 <div class="col-lg-6 d-flex">
+			       	 	<a href="https://facebook.com" target="_blank"><img src="img/facebook.png" alt="Seguinos en facebook"></a>
+						 <a href="https://twitter.com" target="_blank"><img src="img/twitter.png" alt="Seguinos en twitter"></a>
+					     <a href="https://instagram.com" target="_blank"><img src="img/instagram.png" alt="Seguinos en instagram"></a>
+			       	 </div>
+				</div>
+		        <div class="d-flex align-items-center justify-content-space-evenly px-1 py-1">
+					<div class="list-group px-2 list-group-flush">
+		           	   <h5>Quienes somos</h5>
+					  <a href="detalles/somos.html" class="list-group-item list-group-item-action ">Quienes somos</a>
+					  <a href="detalles/aviso.html" class="list-group-item list-group-item-action">Aviso de privacidad</a>
+					  <a href="detalles/terminos.html" class="list-group-item list-group-item-action">Terminos y Condiciones</a>
+					</div>
+					<div class="list-group  px-2 list-group-flush">
+		           	   <h5>Centro de ayuda</h5>
+					  <a href="detalles/comprar.html" class="list-group-item list-group-item-action">Como comprar</a>
+					  <a href="detalles/garantia.html" class="list-group-item list-group-item-action">Garantias y devoluciones</a>
+					  <a href="detalles/preguntas.html" class="list-group-item list-group-item-action">Preguntas frecuentes</a>
+					</div>
+                </div>  	               	
+            </div>
+        </div>
+    </div>
+  </footer>
+ <!-- Termina el footer -->
+ <!-- scripts -->
+   <script src="js/bootstrap.bundle.js"></script>
+   <script src="js/sweetalert.min.js"></script>
+   <script src="js/maingeneric1.js"></script>
+   <script src="js/contacto.js"></script>
+   <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
+		
+

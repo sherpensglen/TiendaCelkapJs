@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login de CelKap</title>
+	<meta name="description" content="Registro celkap">
+	<meta name="keywords" content="registro, contraseña,celkap">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="fondoLogin">
+<!-- Inicia el nav -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-0 px-0 m-0" id="botoneraLogin">
+			<div class="container-fluid d-flex align-items-center justify-content-end">
+				      <ul class="mb-2 mb-lg-0  d-flex align-items-center">
+				        <li class="nav-item p-0 m-0">
+				           <a class="nav-link active p-3" aria-current="page" href="../contacto.html">Contacto</a>
+				        </li>
+				        <li class="nav-item p-0 m-0">
+				           <a class="nav-link active p-3" aria-current="page" href="../index.html">Regresar a la tienda</a>
+				        </li>
+				      </ul>
+			</div>
+	   </nav>
+   <!-- Termina el nav --> 
+ <!-- Inicia el header -->
+   <header>
+   	
+   </header>
+   <!-- Termina  el header -->
+   <!-- Inicia el main -->
+   <main>
+   	 <div class="container-fluid d-flex align-items-center justify-content-center py-1  ">
+           <div class="row rounded p-3 m-2" id="formContainer">
+        	 <h1>Login</h1>
+			 <form id="login" method="post" action="#" >
+			 	<div class="form-group py-2 px-2">
+			        <label for="fname">Correo Electronico</label>			      
+			        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="username">
+                     <div id="emailHelp" class="form-text">No compartimos tu correo con nadie.</div>
+			    </div>
+			    <div class="mb-3">
+				    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" name="password">
+				</div>
+				<div class="mb-3 form-check">
+				    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="conectado">
+				    <label class="form-check-label" for="exampleCheck1">Mantenerme conectado</label>
+				</div>
+			    <div class="d-flex align-items-center justify-content-center py-3">
+			        	 <input class="btn btn-dark btn-lg botonForm" type="submit"  value="Enviar"  onclick="login(event)">
+			    </div>			          
+			  </form>
+		  </div>
+	    </div>
+	   <div class="container-fluid d-flex align-items-center justify-content-center py-2 flex-column">
+	   	     <p class="text-muted">No tienes cuenta crea una aqui</p>
+	    	 <a href="registro.html" class="btn btn-dark btn-lg" role="button" aria-disabled="true">Crear cuenta</a>
+	    </div>
+   	 
+  </main>
+<!-- Termina el main -->
+<!-- Inicia el footer -->
+   <footer >
+  </footer>
+ <!-- Termina el footer -->
+ <!-- scripts -->
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="../js/wow.min.js"></script>
+   <script src="../js/sweetalert.min.js"></script>
+   <script src="../js/maingeneric1.js"></script>
+    <script src="../js/login.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

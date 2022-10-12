@@ -1,0 +1,62 @@
+[
+{
+"id":1,
+"img":"img/phone1.jpg",
+"alt":"Poco X3 Pro",
+"caption":"Poco X3 Pro",
+"price":6900,
+"gama":"Media",
+"marca":"Poco",
+"ram":16
+},
+{
+"id":2,
+"img":"img/phone2.jpg",
+"alt":"Samsung S20",
+"caption":"Samsung Galaxy S20",
+"price":9399,
+"gama":"Alta",
+"marca":"Samsung",
+"ram":32
+},
+{
+"id":3,
+"img":"img/phone3.jpg",
+"alt":"Xiaomi R note 10",
+"caption":"Xiaomi Readmi Note 10",
+"price":5900,
+"gama":"Baja",
+"marca":"Xiaomi",
+"ram":8
+},
+{
+"id":4,
+"img":"img/phone4.jpg",
+"alt":"Iphone 12 pro Max",
+"caption":"Apple iPhone 12 pro Max",
+"price":26999,
+"gama":"Alta",
+"marca":"Apple",
+"ram":32
+},
+{
+"id":5,
+"img":"img/phone5.jpg",
+"alt":"Motorola G100",
+"caption":"Motorola G100",
+"price":10249,
+"gama":"Media",
+"marca":"Motorola",
+"ram":16
+},
+{
+"id":6,
+"img":"img/phone6.jpg",
+"alt":"Black shark 4",
+"caption":"Black shark 4",
+"price":9999,
+"gama":"Media",
+"marca":"Blackshark",
+"ram":32
+}
+]

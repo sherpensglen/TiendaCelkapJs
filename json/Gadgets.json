@@ -1,0 +1,56 @@
+[
+{
+"id":13,
+"img":"img/gadget1.jpg",
+"alt":"Amazon Echo Alexa",
+"caption":"Amazon Echo Alexa",
+"price":1999,
+"color":"Azul",
+"marca":"Amazon"
+},
+{
+"id":14,
+"img":"img/gadget2.jpg",
+"alt":"Roku express 4K",
+"caption":"Roku express 4K",
+"price":999,
+"color":"Negro",
+"marca":"Roku"
+},
+{
+"id":15,
+"img":"img/gadget3.jpg",
+"alt":"DJI Mavic Mini",
+"caption":"DJI Mavic Mini",
+"price":13999,
+"color":"Blanco",
+"marca":"DJI"
+},
+{
+"id":16,
+"img":"img/audifonos2.jpg",
+"alt":"Xiaomi Audífonos",
+"caption":"Xiaomi Audífonos twe",
+"price":452,
+"color":"Negro",
+"marca":"Xiaomi"
+},
+{
+"id":17,
+"img":"img/band.jpg",
+"alt":"Xiaomi Mi Band 6",
+"caption":"Xiaomi Mi Band 6",
+"price":1999,
+"color":"Negro",
+"marca":"Xiaomi"
+},
+{
+"id":18,
+"img":"img/band2.jpg",
+"alt":"Xiaomi Mi Band 5",
+"caption":"Xiaomi Mi Band 5",
+"price":799,
+"color":"Gris",
+"marca":"Xiaomi"
+}
+]

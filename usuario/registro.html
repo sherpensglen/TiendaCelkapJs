@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Login de CelKap</title>
+	<meta name="description" content="Registro celkap">
+	<meta name="keywords" content="registro, contraseña,celkap">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="fondoLogin">
+<!-- Inicia el nav -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top py-0 px-0 m-0" id="botoneraLogin">
+			<div class="container-fluid d-flex align-items-center justify-content-end">
+				      <ul class="mb-2 mb-lg-0  d-flex align-items-center">
+				        <li class="nav-item p-0 m-0">
+				           <a class="nav-link active p-3" aria-current="page" href="../contacto.html">Contacto</a>
+				        </li>
+				        <li class="nav-item p-0 m-0">
+				           <a class="nav-link active p-3" aria-current="page" href="../index.html">Regresar a la tienda</a>
+				        </li>
+				      </ul>
+			</div>
+	   </nav>
+   <!-- Termina el nav --> 
+ <!-- Inicia el header -->
+   <header>
+   	
+   </header>
+   <!-- Termina  el header -->
+   <!-- Inicia el main -->
+   <main>
+   	 <div class="container-fluid d-flex align-items-center justify-content-center py-1  ">
+           <div class="row rounded p-3 m-2" id="formContainer">
+        	 <h1>Crear cuenta</h1>
+			 <form id="register" method="post" action="login.html"  onsubmit="event.preventDefault();" class="needs-validation" novalidate>
+			 	<div class="form-group py-2 px-2">
+				    <label for="validationCustom01" class="form-label">Nombre</label>
+				    <input type="text" class="form-control" id="validationCustom01" name="firstname" required>
+				    <div class="valid-feedback">
+				      Se ve bien!
+				    </div>
+				</div>
+				<div class="form-group py-2 px-2">
+				    <label for="validationCustom02" class="form-label">Apellido</label>
+				    <input type="text" class="form-control" id="validationCustom02" value="" name="lastname" required>
+				    <div class="valid-feedback">
+				      Se ve bien!
+				    </div>
+				  </div>
+				  <div class="form-group py-2 px-2">
+				    <label for="validationCustomUsername" class="form-label">Correo</label>
+				      <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="emailHelp"  name="username" required>
+	                   <div id="emailHelp" class="form-text">No compartimos tu correo con nadie.</div>
+				      <div class="invalid-feedback">
+				        Por favor ingresa tu nombre de usuario.
+				      </div>
+				  </div>
+			    <div class="mb-3">
+				    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+				    <input type="password" class="form-control" id="exampleInputPassword1" name="password" required>
+				     <div class="invalid-feedback">
+				        Por favor ingresa tu contraseña.
+				      </div>
+				</div>
+			    <div class="col-12 d-flex align-items-center">
+				    <div class="form-check">
+				      <input class="form-check-input" type="checkbox" value="" name="check" id="invalidCheck" required>
+				      <label class="form-check-label" for="invalidCheck">
+				        Aceptar Terminos y condiciones
+				      </label>
+				      <div class="invalid-feedback">
+				        debes aceptar para rgistrarte.
+				      </div>
+				    </div>
+				  </div>
+				 <div class="d-flex align-items-center justify-content-center py-3">
+				    <button class="btn btn-dark btn-lg botonForm" type="submit" value="Enviar" 
+				    onclick="createUser(event)">enviar</button>
+			     </div>      
+			  </form>
+		  </div>
+	    </div>
+   	    <div class="container-fluid d-flex align-items-center justify-content-center py-2 flex-column">
+	   	     <p class="text-muted">Tienes  ya una cuenta? ingresa aqui</p>
+	    	 <a href="login.html" class="btn btn-dark btn-lg" role="button" aria-disabled="true">Ingresar cuenta</a>
+	    </div>
+  </main>
+<!-- Termina el main -->
+<!-- Inicia el footer -->
+   <footer >
+  </footer>
+ <!-- Termina el footer -->
+ <!-- scripts -->
+   <script src="../js/bootstrap.min.js"></script>
+   <script src="../js/wow.min.js"></script>
+   <script src="../js/sweetalert.min.js"></script>
+   <script src="../js/maingeneric1.js"></script>
+    <script src="../js/registroUsuario.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>
