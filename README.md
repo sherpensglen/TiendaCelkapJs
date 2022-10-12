@@ -2,8 +2,9 @@
 ![](img/logo.svg)
 
 # Objetivo
-Esta pagína se creo con la idea de mostrar las habilidades obtenidas en el curso de coderhouse
-Link a su curso: https://www.coderhouse.com.mx/online/desarrollo-web-online
+Esta pagína se creo con la idea de mostrar las habilidades obtenidas en el curso de coderhouse desarrollo web y js
+Link a su curso: https://www.coderhouse.com.mx/online/desarrollo-web-online y
+https://www.coderhouse.com.mx/online/javascript
 
 # Que se uso para crear la pagína
 - Lenguajes usados
@@ -17,6 +18,7 @@ Link a su curso: https://www.coderhouse.com.mx/online/desarrollo-web-online
  - Librerias
  1. wow.js
  2. animate.css
+ 3. sweetalert.js
  
 # Extras usados
 Esta pagína se utilizaron las siguientes paginas para la optimización y diseño de la pagina principalmente relaciónadas a la las imagenes.
